@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Siddharth Desale Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      function setupVideos() {
+        for (const video of document.querySelectorAll("video")) {
+          video.controls = false;
+          video.addEventListener("mouseover", () => {
+            video.controls = "controls";
+          });
+          video.addEventListener("mouseout", () => {
+            video.controls = false;
+          });
+        }
+      }
+      window.addEventListener("load", setupVideos, false);
+    </script>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .gradient {
+        height: 2550px;
+        background-color: rgb(0, 0, 0);
+        background-image: linear-gradient(
+          to bottom right,
+          rgb(28, 35, 45),
+          rgb(39, 63, 113)
+        );
+        .body-border {
+          height: 2300px;
+          width: 1400px;
+          box-shadow: -1px -1px 40px rgba(16, 16, 16, 0.935);
+          background-color: rgb(50, 76, 99);
+          border-radius: 30px;
+          margin: auto;
+          position: absolute;
+          top: 1400px;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+      .top-border {
+        height: 180px;
+        width: 500px;
+        box-shadow: 0px 0px 50px rgb(24, 27, 29);
+        background-color: rgb(90, 111, 112);
+        border-radius: 30px;
+        position: absolute;
+        top: -450px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      p.title {
+        font-size: 300%;
+        line-height: 0.1;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-variant: small-caps;
+        color: rgb(201 236 239);
+        text-shadow: 3px 3px 10px black;
+        text-align: center;
+        position: relative;
+        top: 35px;
+      }
+      p.name1 {
+        font-size: 230%;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-variant: small-caps;
+        color: rgb(201 236 239);
+        position: absolute;
+        top: 245px;
+        left: 240px;
+      }
+      img.img1 {
+        width: 600px;
+        border-radius: 25px;
+        position: absolute;
+        top: 332px;
+        left: 70px;
+        box-shadow: 0px 0px 8px rgb(0, 0, 0);
+      }
+      .card1 {
+        height: 400px;
+        width: 620px;
+        background-color: rgb(40, 54, 69);
+        position: absolute;
+        top: 280px;
+        left: 60px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px black;
+      }
+      p.name2 {
+        font-size: 230%;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-variant: small-caps;
+        color: rgb(201 236 239);
+        position: absolute;
+        top: 245px;
+        left: 990px;
+      }
+      video.vid1 {
+        width: 600px;
+        height: 337.5px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 332px;
+        left: 770px;
+        box-shadow: 0px 0px 8px black;
+      }
+      video.vid2 {
+        width: 593px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 700px;
+        left: 775px;
+        box-shadow: 0px 0px 8px black;
+      }
+      video.vid3 {
+        width: 593px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 980px;
+        left: 775px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card2 {
+        height: 962px;
+        width: 620px;
+        background-color: rgb(41, 67, 78);
+        position: absolute;
+        top: 280px;
+        left: 760px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px black;
+      }
+      p.name3 {
+        font-size: 230%;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-variant: small-caps;
+        color: rgb(201 236 239);
+        position: absolute;
+        top: 680px;
+        left: 300px;
+      }
+      video.vid4 {
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 1100px;
+        left: 200px;
+        box-shadow: 0px 0px 8px black;
+      }
+      video.vid5 {
+        width: 560px;
+        height: 315px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 770px;
+        left: 90px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card3 {
+        height: 700px;
+        width: 620px;
+        background-color: rgb(68, 104, 124);
+        position: absolute;
+        top: 710px;
+        left: 60px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+      p.name4 {
+        font-size: 530%;
+        font-weight: 100;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-variant: small-caps;
+        color: rgb(201 236 239);
+        position: absolute;
+        top: 1435px;
+        left: 610px;
+      }
+      .card4 {
+        width: 1320px;
+        height: 1000px;
+        background-color: rgb(73, 112, 118);
+        position: absolute;
+        top: 1500px;
+        left: 60px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+      video.vid6 {
+        width: 600px;
+        height: 337px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 1650px;
+        left: 755px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card5 {
+        height: 355px;
+        width: 620px;
+        background-color: rgb(74, 94, 97);
+        position: absolute;
+        top: 1640px;
+        left: 745px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+      video.vid7 {
+        width: 600px;
+        height: 337px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 1650px;
+        left: 85px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card6 {
+        height: 355px;
+        width: 620px;
+        background-color: rgb(44, 58, 68);
+        position: absolute;
+        top: 1640px;
+        left: 75px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+      video.vid8 {
+        width: 600px;
+        height: 337px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 2030px;
+        left: 755px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card7 {
+        height: 355px;
+        width: 620px;
+        background-color: rgb(21, 45, 59);
+        position: absolute;
+        top: 2020px;
+        left: 745px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+      video.vid9 {
+        width: 600px;
+        height: 337px;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: 2030px;
+        left: 85px;
+        box-shadow: 0px 0px 8px black;
+      }
+      .card8 {
+        height: 355px;
+        width: 620px;
+        background-color: rgb(37, 92, 106);
+        position: absolute;
+        top: 2020px;
+        left: 75px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 12px black;
+      }
+    </style>
+  </head>
+  <body class="gradient">
+    <div class="top-border"></div>
+    <div class="body-border"></div>
+    <p class="title">Siddharth Desale's</p>
+    <p class="title">3D Portfolio</p>
+    <div class="card1"></div>
+    <p class="name1">Profile Picture</p>
+    <img class="img1" src="/Images/PFP2.png" alt="A Profile Picture" />
+    <div class="card2"></div>
+    <p class="name2">Competitons</p>
+    <video class="vid1" src="/Images/Infinite Journeys.mp4"></video>
+    <video class="vid2" src="/Images/FinalMovingMeditations.mp4"></video>
+    <video class="vid3" src="/Images/Final Render.mp4"></video>
+    <div class="card3"></div>
+    <p class="name3">Donuts</p>
+    <video class="vid4" src="/Images/Donut.mp4"></video>
+    <video class="vid5" src="/Images/Donut V2.mp4" loop></video>
+    <div class="card4"></div>
+    <p class="name4">Other</p>
+    <div class="card5"></div>
+    <video class="vid6" src="/Images/Day 1.mp4"></video>
+    <div class="card6"></div>
+    <video class="vid7" src="/Images/BikeThingFinal.mov" loop></video>
+    <div class="card7"></div>
+    <video class="vid8" src="/Images/TeamSeas.mp4"></video>
+    <div class="card8"></div>
+    <video class="vid9" src="/Images/VFX1.mp4"></video>
+  </body>
+</html>
